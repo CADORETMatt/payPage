@@ -40,7 +40,8 @@ document.getElementById("panierForm").addEventListener("submit", async (e) => {
     ];
 
     const response = await fetch(
-        "https://cpktnkjahurhvhabwnsf.supabase.co/functions/v1/create-checkout",
+        /* "https://cpktnkjahurhvhabwnsf.supabase.co/functions/v1/create-checkout"*/
+        "https://cpktnkjahurhvhabwnsf.supabase.co/functions/v1/rapid-function",
         {
             method: "POST",
             headers: {

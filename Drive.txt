@@ -1,0 +1,10 @@
+Étape 1 — Sécuriser la clé Stripe
+Dans ton terminal (ou supabase_edge_secret):
+supabase secrets set STRIPE_SECRET_KEY=sk_xxxxx
+
+🧱 Étape 2 — Créer la fonction
+supabase functions new create-checkout
+Puis ouvre :
+supabase/functions/create-checkout/index.ts
+
+Requête sécurisée avec un token Supabase dans html/js
