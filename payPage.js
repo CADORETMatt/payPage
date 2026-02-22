@@ -44,7 +44,7 @@ document.getElementById("panierForm").addEventListener("submit", async (e) => {
 
         // À terme : récupérer le priceId correspondant au productId via une table ou constante
         // Pour l'instant on suppose que tu as seulement un produit → à adapter
-        const priceId = "price_xxxxxxxxxxxxxxxxxxxx";   // ← À REMPLACER par le vrai price_xxx
+        const priceId = "price_1T2CjoF5dRUutdmbV7vCCSA8";   // ← À REMPLACER par le vrai price_xxx
 
         const items = [];
         if (priceId) {
@@ -54,7 +54,7 @@ document.getElementById("panierForm").addEventListener("submit", async (e) => {
         // Exemple newsletter (à adapter selon ta logique)
         const newsletterChecked = document.querySelector('input[type="checkbox"]').checked;
         if (newsletterChecked) {
-            items.push({ priceId: "price_yyyyyyyyyyyyyyyyyyyy", quantity: 1 });
+            items.push({ priceId: "price_1T2K54F5dRUutdmbj4OYm3n4", quantity: 1 });
         }
 
         if (items.length === 0) {
