@@ -96,6 +96,7 @@ async function fetchData() {
         output.innerText = "Compte ouvert !";
         console.log("data = ", data);
         document.getElementById("payDiv").style.display = "block";
+        document.getElementById("loginDiv").style.display = "none";
         //window.location.replace(connectPage);
     }
 }
